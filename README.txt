@@ -1,2 +1,2 @@
-﻿NeurocontrolProject
+﻿NeurocontrolProject222
 Программа для управления ЛЕГО-роботом с помощью нейрообратной связи!
