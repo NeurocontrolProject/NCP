@@ -1,0 +1,29 @@
+<NeurofeedbackSignalSpecs>	<vSignals>		<DerivedSignal>			<sSignalName>Raw</sSignalName>			<sType>plain</sType>			<SpatialFilterMatrix>Raw.xml</SpatialFilterMatrix>			<fAverage></fAverage>			<fStdDev></fStdDev>			<fBandpassLowHz></fBandpassLowHz>			<fBandpassHighHz></fBandpassHighHz>		</DerivedSignal>		<DerivedSignal>			<sSignalName>CSP_right_DS_10-18_-1</sSignalName>			<sType>plain</sType>			<SpatialFilterMatrix>CSP_right_DS_10-18_-1.xml</SpatialFilterMatrix>			<fAverage>0</fAverage>			<fStdDev>1</fStdDev>			<fBandpassLowHz>10</fBandpassLowHz>			<fBandpassHighHz>18</fBandpassHighHz>		</DerivedSignal>		<DerivedSignal>			<sSignalName>CSP_left_DS_10-18_-2</sSignalName>			<sType>plain</sType>			<SpatialFilterMatrix>CSP_left_DS_9-17_-2.xml</SpatialFilterMatrix>			<fAverage>0</fAverage>			<fStdDev>1</fStdDev>			<fBandpassLowHz>10</fBandpassLowHz>			<fBandpassHighHz>18</fBandpassHighHz>		</DerivedSignal>	</vSignals>	<vProtocols>		<FeedbackProtocol>			<sProtocolName>Baseline</sProtocolName>			<sSignalComposition>Simple</sSignalComposition>			<bUpdateStatistics>1</bUpdateStatistics>			<nMSecondsPerWindow>1000</nMSecondsPerWindow>			<fDuration>60</fDuration>			<bStopAfter>1</bStopAfter>			<cString>Relax your hands</cString>			<sFb_type></sFb_type>			<iNComp></iNComp>			<dBand></dBand>			<fbSource></fbSource>		</FeedbackProtocol>		<FeedbackProtocol>			<sProtocolName>Feedback_color_last</sProtocolName>			<sSignalComposition>Simple</sSignalComposition>			<bUpdateStatistics>0</bUpdateStatistics>			<nMSecondsPerWindow>150</nMSecondsPerWindow>			<fDuration>2</fDuration>			<bStopAfter>1</bStopAfter>			<cString></cString>			<sFb_type>Color intensity</sFb_type>			<iNComp></iNComp>			<dBand></dBand>			<fbSource></fbSource>		</FeedbackProtocol>		<FeedbackProtocol>			<sProtocolName>Feedback_color</sProtocolName>			<sSignalComposition>Simple</sSignalComposition>			<bUpdateStatistics>0</bUpdateStatistics>			<nMSecondsPerWindow>1000</nMSecondsPerWindow>			<fDuration>60</fDuration>			<bStopAfter>0</bStopAfter>			<cString></cString>			<sFb_type>Color intensity</sFb_type>			<iNComp></iNComp>			<dBand></dBand>			<fbSource></fbSource>		</FeedbackProtocol>		<FeedbackProtocol>			<sProtocolName>CSP_right</sProtocolName>			<sSignalComposition>Simple</sSignalComposition>			<bUpdateStatistics>1</bUpdateStatistics>			<nMSecondsPerWindow>1000</nMSecondsPerWindow>			<fDuration>60</fDuration>			<bStopAfter>0</bStopAfter>			<cString>Move right hand</cString>			<sFb_type></sFb_type>			<iNComp>2</iNComp>			<dBand>1</dBand>			<fbSource></fbSource>		</FeedbackProtocol>		<FeedbackProtocol>			<sProtocolName>CSP_left</sProtocolName>			<sSignalComposition>Simple</sSignalComposition>			<bUpdateStatistics>1</bUpdateStatistics>			<nMSecondsPerWindow>1000</nMSecondsPerWindow>			<fDuration>60</fDuration>			<bStopAfter>1</bStopAfter>			<cString>Move left hand</cString>			<sFb_type></sFb_type>			<iNComp>2</iNComp>			<dBand>1</dBand>			<fbSource></fbSource>		</FeedbackProtocol>		<FeedbackProtocol>			<sProtocolName>Rest</sProtocolName>			<sSignalComposition>Simple</sSignalComposition>			<bUpdateStatistics>0</bUpdateStatistics>			<nMSecondsPerWindow>120</nMSecondsPerWindow>			<fDuration>5</fDuration>			<bStopAfter>0</bStopAfter>			<cString>Prepare</cString>			<sFb_type></sFb_type>			<iNComp></iNComp>			<dBand></dBand>			<fbSource></fbSource>		</FeedbackProtocol>		<FeedbackProtocol>			<sProtocolName>Mock_feedback</sProtocolName>			<sSignalComposition>Simple</sSignalComposition>			<bUpdateStatistics>0</bUpdateStatistics>			<nMSecondsPerWindow>1200</nMSecondsPerWindow>			<fDuration>30</fDuration>			<bStopAfter>0</bStopAfter>			<cString></cString>			<sFb_type>Mock</sFb_type>			<iNComp></iNComp>			<dBand></dBand>			<fbSource>D:\neurofeedback\settings\lt\16 Feedback_color Feedback_color 60.bin</fbSource>		</FeedbackProtocol>	</vProtocols>	
+<vPSequence>	
+
+<s>Rest</s>
+<s>Baseline</s>	
+	<s show_as ='CSP right feedback'>CSP_right</s>	
+	<s show_as ='CSP left feedback'>CSP_left</s>	
+	<s>Baseline</s>	
+<s>Baseline</s>	
+<s>Baseline</s>	
+	<s>Baseline</s>	
+<s>Baseline</s>	
+<s>Baseline</s>	
+	<s>Baseline</s>	
+<s>Baseline</s>	
+<s>Baseline</s>	
+<s>Baseline</s>	
+<s>Baseline</s>	
+	<s>Baseline</s>	
+<s>Baseline</s>	
+<s>Baseline</s>	
+	<s>Baseline</s>	
+<s>Baseline</s>	
+<s>Baseline</s>	
+	</vPSequence>	
+
+
+
+<fSamplingFrequency>1000</fSamplingFrequency>	<bDoubleBlind>0</bDoubleBlind></NeurofeedbackSignalSpecs>
