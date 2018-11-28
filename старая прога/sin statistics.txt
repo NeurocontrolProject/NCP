@@ -1,0 +1,5 @@
+2sin10
+window = 100
+ 
+standard_deviation: 0.0018
+average: 0.0037
