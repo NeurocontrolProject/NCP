@@ -1,8 +1,0 @@
-results/*
-mex/liblsl
-mex/resolve_channels
-graphs/*
-CurrentChannelLabels.mat
-diary
-settings/tests
-bin_to_csv.m
